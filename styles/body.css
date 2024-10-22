@@ -1,0 +1,12 @@
+.promo-photo-container{
+    background-color: black;
+    display: block;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.promo-photo{
+    display: inline;
+    justify-content: flex;
+    align-items: center;
+}
