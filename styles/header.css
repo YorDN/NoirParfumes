@@ -10,10 +10,15 @@
   color: white;
   font-size: 45px;
   font-weight: 100;
+  transition: color, 0.20s;
 }
 .left-section{
   margin-left: 20px;
   flex: 1;
+  transition: color, 0.20s;
+}
+.title-link:hover{
+  opacity: 0.8;
 }
 .search-bar{
   font-size: 20px;
