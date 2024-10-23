@@ -11,6 +11,8 @@
   font-size: 45px;
   font-weight: 100;
   transition: color, 0.20s;
+  display: flex;
+  justify-content: left;
 }
 .left-section{
   margin-left: 20px;

@@ -33,13 +33,14 @@ header h1 {
 }
 
 .product-image img {
-    max-width: 400px;
-    border: 1px solid #ddd;
+    width: 500px;
+    height: 500px;
     border-radius: 8px;
 }
 
 .product-details {
     flex: 1;
+    width: 500px;
     margin-left: 40px;
 }
 
@@ -122,4 +123,14 @@ footer {
 }
 .fiftyMl{
     margin-right: 20px;
+}
+.product-image {
+    width: 750px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 40px rgb(217, 217, 217);
 }
