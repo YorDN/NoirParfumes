@@ -7,7 +7,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    padding: 20px;
 }
 
 .container {
@@ -56,7 +55,7 @@ header h1 {
 
 .product-details .price {
     font-size: 1.6em;
-    color: #E63946;
+    color: #ffffff;
     margin: 20px 0;
 }
 
@@ -87,13 +86,15 @@ form select {
 }
 
 .add-to-cart {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #fbfbfb;
+    color: #000000;
+    
 }
 
 .buy-now {
-    background-color: #FF5722;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000;
 }
 
 footer {
@@ -101,4 +102,24 @@ footer {
     margin-top: 40px;
     font-size: 0.9em;
     color: #666;
+}
+.button-container{
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.button-container button {
+    background-color: white;
+    border: black 1px solid;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+
+}
+.fiftyMl{
+    margin-right: 20px;
 }
