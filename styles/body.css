@@ -1,0 +1,14 @@
+.banner{
+  height: 600px;
+  background-blend-mode: color;
+}
+.banner-container{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
