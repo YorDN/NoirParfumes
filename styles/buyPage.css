@@ -85,11 +85,12 @@ form select {
     border: none;
     cursor: pointer;
     margin-right: 10px;
+    
 }
 
 .add-to-cart {
-    background-color: #fbfbfb;
-    color: #000000;
+    background-color: black;
+    color: white;
     
 }
 
@@ -97,6 +98,8 @@ form select {
     background-color: #ffffff;
     color: #000000;
     border: #000000;
+    border: #000000 1px solid;
+    
 }
 
 footer {
@@ -138,18 +141,21 @@ footer {
 .details{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    border-bottom: black solid 1px ;
+    margin-bottom: 20px;
+    width: 380px;
   }
-.price, .mililiters{
+.mililiters{
    display: flex;
-   justify-content: center;
+   justify-content: end;
    align-items: center;
    
 }
-.price p{
+.pricePerfume p{
     color: black;
     flex: 1;
+    font-size: 30px;
 }
-.price{
+.pricePerfume{
    
 }
