@@ -28,7 +28,7 @@ img {
   margin-top: 70px;
   margin-bottom: 70px;
   position: relative;
-  width: 70%;
+  width: 90%;
   height: 100px;
   margin-inline: auto;
   overflow: hidden;
@@ -72,6 +72,13 @@ img {
 }
 .brand7{
   animation-delay: calc(30s / 7 * (7 - 6) * -1);
+}
+.category-title{
+  display: flex;
+  justify-content: center;
+}
+.category-title h1{
+  font-size: 40px;
 }
 /*The css for the categories*/
 .category-container{
