@@ -1,3 +1,4 @@
+/*The css for the banner*/
 .banner{
   height: 600px;
   background-blend-mode: color;
@@ -22,6 +23,57 @@ img {
   color: black;
   font-size: 40px;
 }
+/*The css for the infinate scroll*/
+.wrapper{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  position: relative;
+  width: 70%;
+  height: 100px;
+  margin-inline: auto;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, 
+  rgba(0, 0, 0, 0),
+  rgba(0, 0, 0, 1) 20%,
+  rgba(0, 0, 0, 1) 80%,
+  rgba(0, 0, 0, 0));
+}
+.brand{
+  position: absolute;
+  max-width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  left: max(calc(200px * 7), 130%);
+  animation: infinite scrollLeft 30s linear;
+  
+}
+@keyframes scrollLeft{
+  to{
+    left: -200px;
+  }
+}
+.brand1{
+  animation-delay: calc(30s / 7 * (7 - 0) * -1 );
+}
+.brand2{
+  animation-delay: calc(30s / 7 * (7 - 1) * -1);
+}
+.brand3{
+  animation-delay: calc(30s / 7 * (7 - 2) * -1);
+}
+.brand4{
+  animation-delay: calc(30s / 7 * (7 - 3) * -1);
+}
+.brand5{
+  animation-delay: calc(30s / 7 * (7 - 4.2) * -1);
+}
+.brand6{
+  animation-delay: calc(30s / 7 * (7 - 5.2) * -1);
+}
+.brand7{
+  animation-delay: calc(30s / 7 * (7 - 6) * -1);
+}
+/*The css for the categories*/
 .category-container{
   display: flex;
   justify-content: center;
