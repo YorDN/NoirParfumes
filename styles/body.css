@@ -80,6 +80,9 @@ img {
 .category-title h1{
   font-size: 40px;
 }
+.wrapper:hover .brand{
+  animation-play-state: paused!important;
+}
 /*The css for the categories*/
 .category-container{
   display: flex;
