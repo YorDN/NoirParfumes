@@ -123,8 +123,10 @@ img {
 height: 250px;
 }
 .products-container{
-  display: flex;
-  justify-content: center;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 100px;
+  overflow: scroll;
 }
 .popular-container h1{
   font-size: 40px;
@@ -135,4 +137,21 @@ height: 250px;
 .product-brand, .product-name, .product-subdis, .product-price{
   display: flex;
   justify-content: center;
+}
+.popular-container .div3376{
+  display: flex;
+  justify-content: center;
+
+  flex: 1;
+}
+.product{
+  margin-right: 20px;
+  margin-left: 20px
+}
+.category-image img{
+  height: 400px;
+}
+.category-image{
+  width: 300px;
+  overflow: hidden;
 }
