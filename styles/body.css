@@ -118,3 +118,21 @@ img {
 .link-container a:hover{
   text-decoration: underline;
 }
+/*  Popular   */
+.product-image img{
+height: 250px;
+}
+.products-container{
+  display: flex;
+  justify-content: center;
+}
+.popular-container h1{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.product-brand, .product-name, .product-subdis, .product-price{
+  display: flex;
+  justify-content: center;
+}
