@@ -204,9 +204,11 @@ height: 250px;
   padding-right: 10px;
   opacity: 0;
   transition: opacity, 0.30s;
+  
 }
 
 .shell:hover{
+  cursor: pointer;
   .product::after, .product::before{
     opacity: 1;
   }

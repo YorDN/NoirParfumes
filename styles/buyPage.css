@@ -112,7 +112,7 @@ form select {
 .button-container button {
     background-color: white;
     border: none;
-    box-shadow: rgb(141, 138, 138) 0px 0px 10px;
+    box-shadow: rgb(181, 177, 177) 0px 0px 10px;
     border-radius: 7px;
     font-size: 25px;
     font-weight:600;
@@ -178,7 +178,7 @@ form select {
 .hundredMl:hover,
 .twoHundredMl:hover,
 .buy-now:hover{
-    background-color: black;
+    background-color: #4a4949;
     color: white;
     cursor: pointer;
     box-shadow: none;
@@ -188,7 +188,7 @@ form select {
 .hundredMl:active,
 .twoHundredMl:active,
 .buy-now:active{
-    background-color: black;
+    background-color: #4a4949;
     border-color: white;
     color: white;
     opacity: 0.8;
