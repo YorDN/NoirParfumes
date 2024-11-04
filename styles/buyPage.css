@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
 }
 
 header {
@@ -77,11 +77,13 @@ form select {
 
 .buttons {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .add-to-cart, .buy-now {
     padding: 10px 20px;
-    font-size: 1.1em;
+    font-size: 25px;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -91,7 +93,7 @@ form select {
 .add-to-cart {
     background-color: black;
     color: white;
-    
+    transition: background-color, 0.30s;
 }
 
 .buy-now {
@@ -99,33 +101,30 @@ form select {
     color: #000000;
     border: #000000;
     border: #000000 1px solid;
-    
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: #666;
+    transition: background-color, 0.30s;
 }
 .button-container{
     display: grid;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 1fr 1fr;
+    width: 440px;
 }
 
 .button-container button {
     background-color: white;
-    border: black 1px solid;
-    font-size: 20px;
+    border: none;
+    box-shadow: rgb(141, 138, 138) 0px 0px 10px;
+    border-radius: 7px;
+    font-size: 25px;
+    font-weight:600;
+    color: #222222;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    
-
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    transition: 0.30s;
 }
-.fiftyMl{
+.fiveMl, .hundredMl{
     margin-right: 20px;
 }
 .product-image {
@@ -136,26 +135,64 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 40px rgb(217, 217, 217);
+   /* box-shadow: 5px 5px 40px rgb(217, 217, 217);*/
 }
 .details{
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-bottom: black solid 1px ;
     margin-bottom: 20px;
-    width: 380px;
+    width: 440px;
+
   }
 .mililiters{
    display: flex;
    justify-content: end;
    align-items: center;
-   
+   font-size: 20px;
 }
 .pricePerfume p{
     color: black;
     flex: 1;
     font-size: 30px;
 }
-.pricePerfume{
-   
+.add-to-fav{
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+}
+.mil-price{
+    color: gray;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fiveMl:hover,
+.fiftyMl:hover,
+.hundredMl:hover,
+.twoHundredMl:hover,
+.buy-now:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+}
+.fiveMl:active,
+.fiftyMl:active,
+.hundredMl:active,
+.twoHundredMl:active,
+.buy-now:active{
+    background-color: black;
+    border-color: white;
+    color: white;
+    opacity: 0.8;
+}
+.add-to-cart:hover{
+    opacity: 0.8;
 }
