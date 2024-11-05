@@ -1,5 +1,5 @@
 .footer{
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     display: block;
     padding-bottom: 70px;
 }
@@ -19,6 +19,7 @@
     font-family: roboto, arial;
     font-size: 25px;
     font-weight: bold;
+    transition: text-decoration, 0.30s;
 }
 .link-secondary{
     color: gray;
@@ -35,6 +36,7 @@
 .social-links{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .social-link{
     margin-right: 10px;
@@ -42,4 +44,8 @@
     }
 #tiktok{
     margin-left: 30px;
+}
+.link-main:hover,
+.link-secondary:hover{
+    text-decoration: underline;
 }
