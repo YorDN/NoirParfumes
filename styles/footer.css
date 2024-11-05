@@ -1,0 +1,45 @@
+.footer{
+    background-color: black;
+    display: block;
+    padding-bottom: 70px;
+}
+.link-row-1,
+.link-row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.link-container1,
+.link-container2{
+    display: flex;
+    justify-content: center;
+
+}
+.link-main{
+    color: white;
+    font-family: roboto, arial;
+    font-size: 25px;
+    font-weight: bold;
+}
+.link-secondary{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.link-container1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.link-container2{
+    margin-bottom: 100px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-link{
+    margin-right: 10px;
+    margin-left: 20px;
+    }
+#tiktok{
+    margin-left: 30px;
+}
