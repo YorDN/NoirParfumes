@@ -166,6 +166,8 @@ form select {
     font-size: 20px;
     margin-top: 5px;
     font-weight: normal;
+    display: flex;
+    justify-content: center;
 }
 .product-details{
     display: flex;
@@ -195,4 +197,35 @@ form select {
 }
 .add-to-cart:hover{
     opacity: 0.8;
+}
+
+/*    The perfumes info   */
+.perfume-discription-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.perfume-discription{
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgb(219, 219, 219);
+    padding: 30px;
+    border-radius: 10px;
+}
+.discription-text{
+    display: flex;
+    justify-content: center;
+    
+}
+p{
+    display: flex;
+}
+.info-title{
+    margin-bottom: 20px;
+}
+.info-title h1{
+    font-size: 35px;
+}
+.discription-text p{
+    font-size: 1.3em;
 }
