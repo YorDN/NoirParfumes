@@ -229,3 +229,9 @@ p{
 .discription-text p{
     font-size: 1.3em;
 }
+.discription-container{
+    margin-bottom: 40px;
+}
+.filter-title h1{
+    color: white;
+}

@@ -129,10 +129,11 @@ height: 250px;
   /*overflow: scroll; if we want scroll*/
 }
 .popular-container h1{
-  font-size: 40px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 100px;
 }
 .product-brand, .product-name, .product-subdis, .product-price{
   display: flex;
@@ -215,4 +216,27 @@ height: 250px;
   .go-button{
     opacity: 1;
   }
+}
+.header-all-perfumes{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filters{
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  background-color: #252525;
+}
+.filter-title{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.filter-title-container{
+  display: flex;
+  justify-content: center;
+
 }
