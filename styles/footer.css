@@ -1,5 +1,5 @@
 .footer{
-    background-color: rgb(31, 31, 31);
+    background-image: linear-gradient(to bottom, rgb(46, 46, 46), black);
     display: block;
     padding-bottom: 70px;
 }
