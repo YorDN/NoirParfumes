@@ -175,13 +175,41 @@
                             <!--Filter with a slider-->
                             <div id="perfume-price-filter">
                                 <h1></h1>
-                                <div class="price-slider">
-                                    <input type="number" class="min-price" value="25" min="20" max="170">
-                                    <input type="number" class="max-price" value = "100" min = "20" max="170">
+                                <div class="price-input-container">
+                                    <div class="price-input">
+                                        <div class="price-field">
+                                            <span>Minimum Price</span>
+                                            <input type="number" 
+                                                   class="min-input" 
+                                                   value="20">
+                                        </div>
+                                        <div class="price-field">
+                                            <span>Maximum Price</span>
+                                            <input type="number" 
+                                                   class="max-input" 
+                                                   value="100">
+                                        </div>
+                                    </div>
+                                    <div class="slider-container">
+                                        <div class="price-slider">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="range">
-                                    <input type="range" class="min-input" value="25" min="20" max="170">
-                                    <input type="range" class="max-input" value = "100" min = "20" max="170">
+                    
+                                <!-- Slider -->
+                                <div class="range-input">
+                                    <input type="range" 
+                                           class="min-range" 
+                                           min="20" 
+                                           max="300" 
+                                           value="20" 
+                                           step="1">
+                                    <input type="range" 
+                                           class="max-range" 
+                                           min="20" 
+                                           max="300" 
+                                           value="100" 
+                                           step="1">
                                 </div>
                             </div>
                         </div>
@@ -244,6 +272,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="JavaScript/price-slider.js"></script>
 </body>
 </html>
