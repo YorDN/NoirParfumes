@@ -275,15 +275,19 @@ input[type = "radio"]{
   display: flex;
   margin-bottom: 22px;
 }
+.price-field{
+  display: flex;
+  justify-content: space-between;
+}
 
 .price-field span {
   margin-right: 10px;
   margin-top: 6px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .price-field input {
-  flex: 1;
+  width: 50px;
   height: 35px;
   font-size: 15px;
   font-family: "DM Sans", sans-serif;
@@ -296,7 +300,7 @@ input[type = "radio"]{
 .price-input {
   width: 100%;
   font-size: 19px;
-  color: #555;
+  color: #ffffff;
 }
 
 /* Remove Arrows/Spinners */
@@ -319,11 +323,11 @@ input::-webkit-inner-spin-button {
 
 .slider-container .price-slider {
   height: 100%;
-  left: 25%;
-  right: 15%;
+  left: 5%;
+  right: 70%;
   position: absolute;
   border-radius: 5px;
-  background: #01940b;
+  background: #df04c6;
 }
 
 .range-input {
@@ -346,7 +350,7 @@ input[type="range"]::-webkit-slider-thumb {
   height: 18px;
   width: 18px;
   border-radius: 70%;
-  background: #555;
+  background: #aaaaaa;
   pointer-events: auto;
   -webkit-appearance: none;
 }
@@ -377,4 +381,35 @@ input[type="range"]::-webkit-slider-thumb {
   .price-field {
       margin-bottom: 10px;
   }
+}
+#perfume-price-filter{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 30px;
+}
+#perfume-gender{
+  margin-bottom: 50px;
+}
+.price-header{
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.filters{
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+}
+.products{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.product-show{
+  background-color: #6a6a6a;
+}
+.product-container-all-perfumes{
+  display: flex;
 }
