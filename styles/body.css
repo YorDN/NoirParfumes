@@ -225,8 +225,9 @@ height: 250px;
 }
 /*  The filters  */
 .filters{
-  max-width: 350px;
-  display: block;
+  width: 400px;
+  display: flexbox;
+
   background-color: #252525;
 }
 .filter-title{
@@ -405,11 +406,24 @@ input[type="range"]::-webkit-slider-thumb {
 }
 .products{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr ;
+  
 }
 .product-show{
-  background-color: #6a6a6a;
+  /* background-color: #6a6a6a; */
+  width: 250px;
+  height: 400px;
+  margin: 20px;
 }
 .product-container-all-perfumes{
   display: flex;
+}
+.product-show-container{
+  display: flex;
+  justify-content: center;
+}
+/* Styles for the products*/
+.image-preview img{
+  height: 250px;
 }

@@ -16,14 +16,14 @@ for (let i = 0; i < priceInputvalue.length; i++) {
 
         // Ensure min price is at least 20
         if (minp < 20) {
-            alert("Minimum price cannot be less than 20.");
+            alert("Минималната цена не може да бъде под 20лв!");
             priceInputvalue[0].value = 20;
             minp = 20;
         }
 
         // Ensure max price is at most 300
         if (maxp > 300) {
-            alert("Maximum price cannot be greater than 300.");
+            alert("Максималната цена не може да бъде над 300лв");
             priceInputvalue[1].value = 300;
             maxp = 300;
         }
