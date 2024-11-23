@@ -85,5 +85,6 @@ document.querySelector('.next').addEventListener('click', () => {
   }
 });
 
+
 // Зареждаме първата страница при зареждане на сайта
 showPage(currentPage);
