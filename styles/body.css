@@ -416,6 +416,7 @@ input[type="range"]::-webkit-slider-thumb {
   left: 0px;
   top: 0px;
   height: 100dvh;
+  overflow: scroll;
 }
 .products{
   display: flexbox;
@@ -492,4 +493,23 @@ input[type="range"]::-webkit-slider-thumb {
   /* border: 1px solid black; */
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.566);
+}
+.season-header{
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.mini-icon{
+  height: 40px;
+  margin-right: 10px;
+}
+#perfume-season-filter{
+  font-size: 25px;
+}
+.lable-radio{
+  display: flex;
+  align-items: center;
 }
