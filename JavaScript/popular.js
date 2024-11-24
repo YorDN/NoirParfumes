@@ -15,17 +15,45 @@ const allProducts = [
 ];
 let showList1 = [];
 let showList2 = [];
-for(let a = 0; a < 3; a++){
-  let random = Math.floor(Math.random() * allProducts.length);
-  showList1.push(allProducts[random]);
-  allProducts.splice(random, 1);
-  
-}
-for(let a = 0; a < 3; a++){
-  let random = Math.floor(Math.random() * allProducts.length);
-  showList2.push(allProducts[random]);
-  allProducts.splice(random, 1);
-  
+
+let initialLenght = allProducts.length;
+//this is if we have less than 6 perfumes to show
+if(initialLenght >= 6){
+  for(let a = 0; a < 3; a++){
+    let random = Math.floor(Math.random() * allProducts.length);
+    showList1.push(allProducts[random]);
+    allProducts.splice(random, 1);
+    
+  }
+  for(let a = 0; a < 3; a++){
+    let random = Math.floor(Math.random() * allProducts.length);
+    showList2.push(allProducts[random]);
+    allProducts.splice(random, 1);
+    
+  }
+}else{
+  if (initialLenght > 3){
+    for(let a = 0; a < 3; a++){
+      let random = Math.floor(Math.random() * allProducts.length);
+      showList1.push(allProducts[random]);
+      allProducts.splice(random, 1);
+      
+    }
+    for(let a = 0; a < initialLenght; a++){
+      let random = Math.floor(Math.random() * allProducts.length);
+      showList2.push(allProducts[random]);
+      allProducts.splice(random, 1);
+      
+    }
+  }
+  else{
+    for(let a = 0; a < initialLenght; a++){
+      let random = Math.floor(Math.random() * allProducts.length);
+      showList1.push(allProducts[random]);
+      allProducts.splice(random, 1);
+      
+    }
+  }
 }
 const popularList1 = document.querySelector('.productpop1');
 

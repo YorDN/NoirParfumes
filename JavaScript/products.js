@@ -17,18 +17,14 @@ const products = [
 // number of products the user can see
 const productsPerPage = 9;
 let currentPage = 1;
-
-// Функция за показване на продуктите на текущата страница
 function showPage(page) {
   const productListContainer = document.querySelector('.product-show-container');
-  productListContainer.innerHTML = ''; // Изчистваме старите продукти
+  productListContainer.innerHTML = ''; 
 
-  // Изчисляваме кои продукти да се покажат на текущата страница
   const startIndex = (page - 1) * productsPerPage;
   const endIndex = startIndex + productsPerPage;
   const productsToShow = products.slice(startIndex, endIndex);
 
-  // Добавяме продуктите в контейнера
   productsToShow.forEach(product => {
       const productElement = document.createElement('div');
       productElement.classList.add('product-show');
@@ -55,7 +51,6 @@ function showPage(page) {
   updatePagination(page);
 }
 
-// Функция за актуализиране на навигацията на пагинацията
 function updatePagination(page) {
   const totalPages = Math.ceil(products.length / productsPerPage);
   const prevButton = document.querySelector('.prev');
@@ -64,12 +59,12 @@ function updatePagination(page) {
 
   pageNumber.textContent = page;
 
-  // Деактивираме бутоните, ако е на първата или последната страница
+
   prevButton.classList.toggle('disabled', page === 1);
   nextButton.classList.toggle('disabled', page === totalPages);
 }
 
-// Слушатели за събития на бутоните "Предишна" и "Следваща"
+
 document.querySelector('.prev').addEventListener('click', () => {
   if (currentPage > 1) {
       currentPage--;

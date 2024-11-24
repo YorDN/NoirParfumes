@@ -8,11 +8,16 @@ scrollContainer.addEventListener("wheel", (evt) => {
   scrollContainer.style.scrollBehavior = "auto";
 });
 
-nextBtn.addEventListener("click", () => {
-  scrollContainer.style.scrollBehavior = "smooth";
-  scrollContainer.scrollLeft += 1100;
-});
-backBtn.addEventListener("click", () => {
-  scrollContainer.style.scrollBehavior = "smooth";
-  scrollContainer.scrollLeft -= 1100;
-});
+//we check if there are any items on the second slide to show
+//if there isn't the arrows don't work
+if(showList2.length > 0){
+  nextBtn.addEventListener("click", () => {
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft += 1100;
+  });
+  backBtn.addEventListener("click", () => {
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft -= 1100;
+  });
+}
+
