@@ -13,3 +13,9 @@ a{
 body{
   font-family: Roboto, Arial;
 }
+body::-webkit-scrollbar{
+  background-color: rgb(50, 50, 50)
+}
+body::-webkit-scrollbar-thumb{
+  background: rgb(92, 92, 92);
+}
