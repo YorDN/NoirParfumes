@@ -3,21 +3,131 @@
     margin: 20px;
     justify-content: center;
 }
-.title{
+.title-cart{
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 .sidebar{
     background-color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 .content{
     display: flex;
 }
 .product{
+    padding-left: 20px;
     display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
 }
 .quantity{
     width: 50px;
+}
+.lable-radio{
+    font-size: 25px;
+}
+.card{
+    color: white;
+    font-size: 30px;
+}
+.quest{
+    margin-top: 20px;
+    padding-left: 20px;
+    flex: 3;
+}
+.perfume-title, .mils, .price{
+    font-size: 30px;
+}
+.perfume-title{
+    margin-right: 200px;
+    margin-left: 20px;
+}
+.mils{
+    margin-right: 50px;
+}
+.price{
+    margin-right: 20px;
+}
+.quantity{
+    font-size: 30px;
+}
+.products-added{
+    background-color: rgb(241, 241, 241);
+    padding-top: 20px;
+}
+.products{
+    height: 600px;
+    overflow: scroll;
+}
+.total{
+    border-top: 1px solid black;
+    font-size: 35px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.total-title, .total-price{
+    flex: 1;
+}
+.total-price{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.total-title{
+    margin-left: 20px;
+}
+.buttons{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.to-pay, .back{
+    width: 250px;
+    font-size: 30px;
+}
+.to-pay{
+    background-color: white;
+    border: 1px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition:background-color, 0.30s;
+}
+.to-pay:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.to-pay:active{
+    background-color: white;
+    color: black;
+}
+.back{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: background-color, 0.30s;
+}
+.back:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.back:active{
+    background-color: black;
+    color: white;
 }
