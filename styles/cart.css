@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.title{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    background-color: black;
+}
+.content{
+    display: flex;
+}
+.product{
+    display: flex;
+}
+.quantity{
+    width: 50px;
+}
