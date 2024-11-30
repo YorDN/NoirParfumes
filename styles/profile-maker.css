@@ -1,0 +1,89 @@
+main{
+  display: flex;
+  justify-content: center;
+}
+.log-in-title h1{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+.log-in-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inputs{
+  display: flex-box;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.input{
+  display: flex;
+  justify-content: center;
+}
+.input-field{
+  font-size: 25px;
+  width: 400px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  border: 1px solid black
+}
+.forgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.log-in-btn{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  border: none;
+}
+.complete-btn-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+.sign-up-container{
+  display: flex;
+  justify-content: center;
+}
+.inputs{
+  padding: 20px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.log-in-box{
+  margin-top: 120px;
+  margin-bottom: 120px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.95;
+
+}
+main{
+  background-image: linear-gradient(to bottom, #303030, black);
+}
+.forgot, .forgot a{
+  color: gray;
+}
+.sign-up-container{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.sign-up-container a{
+  font-weight: bold;
+  color: black;
+}
