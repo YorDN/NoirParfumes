@@ -140,3 +140,9 @@ div:has(input:focus) > label{
 .inputs .incorrect input{
   border-color: red;
 }
+.one-btn{
+  margin-top: 0px;
+}
+.one-title{
+  margin-top: 50px;
+}
