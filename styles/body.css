@@ -86,38 +86,6 @@ img {
   animation-play-state: paused!important;
 }
   */
-/*The css for the categories*/
-.category-container{
-  display: flex;
-  justify-content: center;
-  padding-bottom: 100px;
-}
-.category{
-  display: block;
-}
-.category img{
-  display: block;
-  height: 300px;
-}
-.category a{
-  color: black;
-  font-family: Arial;
-  font-size: 30px;
-  justify-content: center;
-}
-.link-container{
-  display: flex;
-  justify-content: center;
-}
-#category-woman{
-  margin-right: 100px;
-}
-#category-man{
-  margin-left: 100px;
-}
-.link-container a:hover{
-  text-decoration: underline;
-}
 /*  Popular   */
 .popular-shell{
   display: flex;

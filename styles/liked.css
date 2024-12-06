@@ -1,0 +1,66 @@
+main{
+  min-height: 600px;
+}
+.like-header{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.like-header h1{
+  font-size: 40px;
+}
+.products{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.product-brand{
+  font-size: 20px;
+  font-weight: 100;
+  color: #6a6a6a;
+}
+.product-name{
+  font-size: 30px;
+  font-weight: bold;
+  color: #252525;
+}
+.product-subdis{
+  margin-top: 5px;
+  color: #313131;
+}
+.product-price{
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #252525;
+}
+.product-brand, .product-name, .product-subdis, .product-price{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.product{
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+.image-preview{
+  display: flex;
+  justify-content: center;
+}
+.image-preview img{
+  height: 250px;
+}
+.products{
+  max-width: 1500px;
+  margin-top: 50px;
+}
+.shell-perfume-preview{
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
