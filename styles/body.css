@@ -505,3 +505,6 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
   align-items: center;
 }
+.perfume-preview:hover .product-brand, .perfume-preview:hover .product-name{
+  text-decoration: underline;
+}
