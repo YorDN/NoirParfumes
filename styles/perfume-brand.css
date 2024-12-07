@@ -1,3 +1,50 @@
 main{
   min-height: 500px;
 }
+.banner{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+.banner img{
+  height: 150px;
+}
+.preoducts-shell{
+  display: flex;
+  background-image: linear-gradient(to bottom, black 50%, rgb(52, 52, 52));
+  padding-bottom: 50px;
+}
+.side-img img{
+  height: 500px;
+}
+.products-category{
+  flex: 1;
+  min-height: 1000px;
+}
+.products-category{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.popular{
+
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.popular-products-shell{
+}
+.banner-inner img{
+  height: 350px;
+
+}
+.banner-inner{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.brand-name{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+
+}
