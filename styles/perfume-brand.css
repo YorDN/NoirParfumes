@@ -34,17 +34,26 @@ main{
 .popular-products-shell{
 }
 .banner-inner img{
-  height: 350px;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 
 }
 .banner-inner{
   display: flex;
   justify-content: center;
   margin-top: 70px;
+  max-width: 700px;
+  
 }
 .brand-name{
   display: flex;
   justify-content: center;
   margin-top: 70px;
 
+}
+.products-category{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
