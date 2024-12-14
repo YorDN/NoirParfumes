@@ -99,3 +99,68 @@ main{
 .brand-info div{
   padding-bottom: 20px;
 }
+.product-brand{
+  font-size: 20px;
+  font-weight: 100;
+  color: #6a6a6a;
+}
+.product-name{
+  font-size: 30px;
+  font-weight: bold;
+  color: #252525;
+}
+.product-subdis{
+  margin-top: 5px;
+  color: #313131;
+}
+.product-price{
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #252525;
+}
+.product-brand, .product-name, .product-subdis, .product-price{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.product{
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+.image-preview{
+  display: flex;
+  justify-content: center;
+}
+.image-preview img{
+  height: 250px;
+}
+.shell-perfume-preview{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+.perfume-preview:hover .product-brand, .perfume-preview:hover .product-name{
+  text-decoration: underline;
+}
+.popular-products-shell{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.popular{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1000px;
+}
+.section-name h1{
+  display: flex;
+  justify-content: center;
+  
+}
+.section-name{
+  margin-bottom: 20px;
+}
