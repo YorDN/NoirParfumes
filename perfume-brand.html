@@ -125,7 +125,6 @@
   </div>
         </div>
       </div>
-    
       <div class="brand-dis">
         <div class="brand-image"> 
           <img src="images/Kilian_Paris.png" alt="">
@@ -136,7 +135,177 @@
           </div>
         </div>
       </div>
+      <div class="all-header">
+        <h1 class="head">
+          Всички парфюми
+        </h1>
+      </div>
+      <div class="all">
+        <div class="filters">
+          <div class="filter-title-container">
+            <h1 class="filter-title">
+                Филтри
+            </h1>
+        </div>
+          <div id="perfume-gender">
+            <label for="MyRadio" class="lable-radio">
+                <input type="radio" class="radio" name="perfume-type" id="MyRadio">
+                <span>Мъжки</span>
+            </label><br>
+            <label for="MyRadio2" class="lable-radio">
+                <input type="radio" class="radio" name="perfume-type" id="MyRadio2">
+                <span>Дамски</span>
+            </label><br>
+            <label for="MyRadio3" class="lable-radio">
+                <input type="radio" class="radio" name="perfume-type" id="MyRadio3">
+                <span>Унисекс</span>
+            </label><br>
+        </div>
+        <!--Filter with a slider-->
+        <div id="perfume-price-filter">
+            <h1 class="price-header">Цена</h1>
+            <div class="price-input-container">
+                <div class="price-input">
+                    <div class="price-field">
+                        <span>Минимална цена</span>
+                        <input type="number" 
+                               class="min-input" 
+                               value="20">
+                    </div>
+                    <div class="price-field">
+                        <span>Максимална цена</span>
+                        <input type="number" 
+                               class="max-input" 
+                               value="100">
+                    </div>
+                </div>
+                <div class="slider-container">
+                    <div class="price-slider">
+                    </div>
+                </div>
+            </div>
 
+            <!-- Slider -->
+            <div class="range-input">
+                <input type="range" 
+                       class="min-range" 
+                       min="20" 
+                       max="300" 
+                       value="20" 
+                       step="1">
+                <input type="range" 
+                       class="max-range" 
+                       min="20" 
+                       max="300" 
+                       value="100" 
+                       step="1">
+            </div>
+        </div>
+        </div>
+        <div class="products">
+          <!-- Контейнер за продуктите -->
+          <div class="product-show-container">
+              <!--prducts are added here -->
+              <div class="shell-perfume-preview">
+                <a href="BuyPage.html">
+                    <div class="perfume-preview">
+                        <div class="image-preview">
+                            <img src="${product.image}" alt="${product.name}">
+                        </div>
+                        <div>
+                            <p class="product-brand">${product.brand}</p>
+                            <p class="product-name">${product.name}</p>
+                            <p class="product-subdis">Парфюмна вода</p>
+                            <p class="product-price">от ${product.price}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="shell-perfume-preview">
+              <a href="BuyPage.html">
+                  <div class="perfume-preview">
+                      <div class="image-preview">
+                          <img src="${product.image}" alt="${product.name}">
+                      </div>
+                      <div>
+                          <p class="product-brand">${product.brand}</p>
+                          <p class="product-name">${product.name}</p>
+                          <p class="product-subdis">Парфюмна вода</p>
+                          <p class="product-price">от ${product.price}</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="shell-perfume-preview">
+            <a href="BuyPage.html">
+                <div class="perfume-preview">
+                    <div class="image-preview">
+                        <img src="${product.image}" alt="${product.name}">
+                    </div>
+                    <div>
+                        <p class="product-brand">${product.brand}</p>
+                        <p class="product-name">${product.name}</p>
+                        <p class="product-subdis">Парфюмна вода</p>
+                        <p class="product-price">от ${product.price}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="shell-perfume-preview">
+              <a href="BuyPage.html">
+                  <div class="perfume-preview">
+                      <div class="image-preview">
+                          <img src="${product.image}" alt="${product.name}">
+                      </div>
+                      <div>
+                          <p class="product-brand">${product.brand}</p>
+                          <p class="product-name">${product.name}</p>
+                          <p class="product-subdis">Парфюмна вода</p>
+                          <p class="product-price">от ${product.price}</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="shell-perfume-preview">
+            <a href="BuyPage.html">
+                <div class="perfume-preview">
+                    <div class="image-preview">
+                        <img src="${product.image}" alt="${product.name}">
+                    </div>
+                    <div>
+                        <p class="product-brand">${product.brand}</p>
+                        <p class="product-name">${product.name}</p>
+                        <p class="product-subdis">Парфюмна вода</p>
+                        <p class="product-price">от ${product.price}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="shell-perfume-preview">
+          <a href="BuyPage.html">
+              <div class="perfume-preview">
+                  <div class="image-preview">
+                      <img src="${product.image}" alt="${product.name}">
+                  </div>
+                  <div>
+                      <p class="product-brand">${product.brand}</p>
+                      <p class="product-name">${product.name}</p>
+                      <p class="product-subdis">Парфюмна вода</p>
+                      <p class="product-price">от ${product.price}</p>
+                  </div>
+              </div>
+          </a>
+      </div>
+      
+          </div>
+          <!-- pagination-->
+          <div class="pagination">
+              <a href="#" class="prev disabled">« Предишна</a>
+              <div class="page-number">1</div>
+              <a href="#" class="next">Следваща »</a>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="side-img">
       <img src="images/straight-to-heaven.png" alt="">
@@ -184,5 +353,6 @@
       </div>
   </div>
 </footer>
+<script src="JavaScript/price-slider.js"></script>
 </body>
 </html>
