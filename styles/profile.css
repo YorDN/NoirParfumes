@@ -55,3 +55,106 @@ main{
 #orders{
   border-bottom: 1px solid rgb(82, 82, 82);
 }
+.profile-header{
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.profile-container{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.input-container input{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+
+}
+.input-container label{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.buttons-container{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#cancel-btn, #save-btn{
+  background-color: white;
+  font-size: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+#cancel-btn:hover{
+  background-color: black;
+  color: white;
+}
+#cancel-btn:active{
+  background-color: white;
+  color: black;
+}
+#save-btn{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+#save-btn:hover{
+  background-color: white;
+  color: black;
+}
+#save-btn:active{
+  background-color: black;
+  color: white;
+}
+.adress-shell{
+  width: 1000px;
+  margin-left: 30px;
+}
+.input-container2{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.input-container2 input{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+
+}
+.input-container2 label{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.adress-shell input{
+  display: flex;
+  width: 100%;
+  max-width: 940px;
+}
