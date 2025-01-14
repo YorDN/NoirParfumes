@@ -64,6 +64,12 @@ main{
 #orders{
   border-bottom: 1px solid rgb(82, 82, 82);
 }
+#sign-out:hover{
+  background-color: rgb(255, 77, 77);
+  a{
+    color: white;
+  }
+}
 .profile-header{
   margin-top: 20px;
   padding-left: 10px;
