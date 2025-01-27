@@ -64,3 +64,22 @@
   font-size: 20px;
   margin-right: 10px;
 }
+
+@media(max-width: 680px) and (min-width: 200px){
+  .left-section{
+    transition: color, 0.20s;
+  }
+  .middle-section{
+    flex: 0;
+    display: flex;
+    justify-content: right;
+
+  }
+  .search-bar{
+    display: none;
+    
+  }
+  .search-button{
+    background-color: black;
+  }
+}

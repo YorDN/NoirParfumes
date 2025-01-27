@@ -49,3 +49,8 @@
 .link-secondary:hover{
     text-decoration: underline;
 }
+@media(max-width: 680px) and (min-width: 200px){
+    a{
+        text-align: center;
+    }
+}
